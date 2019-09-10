@@ -15,6 +15,10 @@ end
 new_array.join(" ")
 end
 
+def reverse_each_word(sentence)
+  sentence.split.collect {|word| word.reverse}.join(" ")
+end
+
 # We define as new_array the return value of collect
 # and in its block instead of shoveling into new_array which is what you would do with each
 #you simply collect what you're looking for new_sentence.reverse
