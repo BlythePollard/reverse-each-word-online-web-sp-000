@@ -14,3 +14,9 @@ def reverse_each_word(sentence)
 end
 new_array.join(" ")
 end
+
+#We define as new_array the return value of collect
+
+
+Matteo Piccini A FEW SECONDS AGO
+and in its block instead of shoveling into new_array which is what you would do with each
